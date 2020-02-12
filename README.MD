@@ -38,3 +38,4 @@ The main **procedure** was as followed :
 + to compute most relevant connected components we actually use a **tree** where each split represents a persistence pair and we use **gini criterion** to select most relevant ones 
 + we use a **sampling method** based on empirical distribution of superpixel labels to infer labels on every pixels from image 
 
+* Important note:* since computation was heavy for our computer we had to use only 5000 to 10000 superpixels that is 2% to 4% of all pixels. It is interesting to see that we still managed to get decent results while TDA researchers actually use all pixels into their computation.
