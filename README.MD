@@ -29,7 +29,7 @@ The main **procedure** was as followed :
   + For dimensions 0 and 1 these are pairs (c,e) where e is an edge that vanish a connex component c (represented by its first vertex).
   + For dimensions 1 and 2 these are pairs (c,e) where e is an edge that vanish a 1-loop c (represented by its first vertex).
 + In order to compute most persistent connex components and loops we apply different procedures:
-  + We then compute the graph from the set of all edges of persistent pairs of dimensions 0-1. In fact it is equivalent as computing the **covering tree** of the 1-skeleton of our RV-complex, that is to say the covering tree over our cloud data point with minimum value. 
+  + For connex components we compute the graph from the set of all edges of persistent pairs of dimensions 0-1. In fact it is equivalent as computing the **covering tree** of the 1-skeleton of our RV-complex, that is to say the covering tree over our cloud data point with minimum value. 
   + Then we can remove the nc −1 edges which vanish the nc −1 most persistent component connexes of our filtration. This gives us the nc most persistent connexe components. 
 + Or we can add edges which gave birth to the most persistent cycles through the filtration. Then find loops with a traversal algorithm. 
 + The most persistent connexe components and the most persistent cycles give each a segmentation of our images.
