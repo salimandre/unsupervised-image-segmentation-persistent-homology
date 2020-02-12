@@ -17,9 +17,9 @@ In the early of 20s century Algebraic topology provided, thanks to Poincaré, a 
 Credits @ Frédéric Chazal, Bertrand Michel
 </p>
 
-We used TDA framework to perform unsupervised image segmentation. The set of images provided by the skimage library from python and the python library Gudhi @INRIA to produce simplicial complexes and persistence diagrams. 
-
 ## Our Method 
+
+We used TDA framework to perform unsupervised image segmentation. The set of images provided by the skimage library from python and the python library Gudhi @INRIA to produce simplicial complexes and persistence diagrams. 
 
 The main **procedure** was as followed : 
 
