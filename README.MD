@@ -52,7 +52,7 @@ Here is one example of image segmentation produced using the naive procedure. It
 <img src="img/pd_0_naive.png" width="70%">
 </p>
 
-Here we removed isolated pixels. We then applied our sampling method to recover labels for these as well. We have a more parsimonious segmentation with 21 segments but they are not homogeneous as a large part of image remains as one segment.
+Here we removed isolated pixels. We then applied our sampling method to recover labels for these as well. We have a more parsimonious segmentation with 21 segments but they are not homogeneous as a large part of image remains as one segment.  
 
 <p align="center"> 
 <img src="img/pd_0_clean.png" width="70%">
@@ -62,6 +62,8 @@ Here are our final results for 0th homology groups where we applied full procedu
 
 <img src="img/final_pd_0.png" width="50%">
 
-Here are our final results for 1th homology groups where we applied full procedure. Actually we noticed that most often only the most persistent cycle may be relevant to the image. Although the main issue with 1th homology groups is that a relevant cycle in 3D or 5D RV complex may become irrelevant when projected into 2D.
+Here are our final results for 1th homology groups where we applied full procedure. Actually we noticed that most often only the most persistent cycle may be relevant to the image. Although the main drawback with 1th homology groups is that a relevant cycle in 3D or 5D RV complex may become irrelevant when projected into 2D. 
 
 <img src="img/final_pd_1.png" width="50%">
+
+In conclusion we found that topological persistence of 0 dimension elements is an effective and robust (no need of parameter tuning) method for image segmentation but more generally for unsupervised data processing. In the contrary we found that topological persistence of 1 dimension elements is not useful in the case of images due to projection issue.
