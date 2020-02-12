@@ -52,16 +52,16 @@ Here is one example of image segmentation produced using the naive procedure. It
 <img src="img/pd_0_naive.png" width="70%">
 </p>
 
-Here we removed isolated pixels. We then applied our sampling method to recover labels for these as well.
+Here we removed isolated pixels. We then applied our sampling method to recover labels for these as well. We have a more parsimonious segmentation with 21 segments but they are not homogeneous as a large part of image remains as one segment.
 
 <p align="center"> 
 <img src="img/pd_0_clean.png" width="70%">
 </p>
 
-Here are our final results for 0th homology groups where we applied full procedure:
+Here are our final results for 0th homology groups where we applied full procedure. We used the same parameters for all images. Results are parsimonious as we get between 10 and 30 segments and they are more homogenous.
 
 <img src="img/final_pd_0.png" width="50%">
 
-Here are our final results for 1th homology groups where we applied full procedure:
+Here are our final results for 1th homology groups where we applied full procedure. Actually we noticed that most often only the most persistent cycle is relevant to the image. Although the issue is that a relevant cycle in 
 
 <img src="img/final_pd_1.png" width="50%">
