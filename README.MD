@@ -45,3 +45,11 @@ The main **procedure** was as followed :
 ## Our Results
 
 **Note:** since computation was heavy for our computer we had to use only 5000 to 10000 superpixels that is 2% to 4% of all pixels. It is interesting to see that we still managed to get decent results while TDA researchers actually use all pixels into their computation.
+
+<img src="img/pd_0_naive" width="30%">
+
+<img src="img/filtration_barcodes_chazal_funda.jpg" width="50%">
+
+<img src="img/filtration_barcodes_chazal_funda.jpg" width="50%">
+
+<img src="img/filtration_barcodes_chazal_funda.jpg" width="50%">
