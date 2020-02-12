@@ -35,6 +35,6 @@ The main **procedure** was as followed :
 + The most persistent connected components and the most persistent cycles give each a segmentation of our images.
 
 *Please note that in practice to compute most persistent 0 homology groups we followed two more steps we don't develop:*
-+ to compute most relevant connected components we actually use a tree where each split represents a persistence pair and we use gini criterion to select most relevant ones 
-+ we use a sampling method based on empirical distribution of superpixel labels to infer labels on every pixels from image 
++ to compute most relevant connected components we actually use a **tree** where each split represents a persistence pair and we use **gini criterion** to select most relevant ones 
++ we use a **sampling method** based on empirical distribution of superpixel labels to infer labels on every pixels from image 
 
