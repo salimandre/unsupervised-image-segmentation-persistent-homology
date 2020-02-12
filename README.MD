@@ -26,10 +26,10 @@ The main **procedure** was as followed :
   + Set a value for edges : the distance between the two vertices. Value of vertices is set to 0. 
   + Set a value for each simplex by taking the max value of all its edges (Method called age filter) 
 + Compute the **persistent pairs** for homology groups for dimensions 0 and 1 and for 1 and 2. 
-  + For dimensions 0 and 1 these are pairs (c,e) where e is an edge that vanish a connex component c (represented by its first vertex).
+  + For dimensions 0 and 1 these are pairs (c,e) where e is an edge that vanish a connected component c (represented by its first vertex).
   + For dimensions 1 and 2 these are pairs (c,e) where e is an edge that vanish a 1-loop c (represented by its first vertex).
-+ In order to compute most persistent connex components and loops we apply different procedures:
-  + For connex components we compute the graph from the set of all edges of persistent pairs of dimensions 0-1. In fact it is equivalent as computing the **covering tree** of the 1-skeleton of our RV-complex, that is to say the covering tree over our cloud data point with minimum value. 
-  + Then we can remove the nc −1 edges which vanish the nc −1 most persistent component connexes of our filtration. This gives us the nc most persistent connexe components. 
-+ Or we can add edges which gave birth to the most persistent cycles through the filtration. Then find loops with a traversal algorithm. 
-+ The most persistent connexe components and the most persistent cycles give each a segmentation of our images.
++ We compute the graph from the set of all edges of persistent pairs of dimensions 0-1. In fact it is equivalent as computing the **covering tree** of the 1-skeleton of our RV-complex, that is to say the covering tree over our cloud data point with minimum value.
++ In order to compute most persistent connected components and loops we then apply different procedures:
+  + For connected components we compute the graph from the set of all edges of persistent pairs of dimensions 0-1. In fact it is equivalent as computing the **covering tree** of the 1-skeleton of our RV-complex, that is to say the covering tree over our cloud data point with minimum value.Then **removing** n − 1 edges from this tree in decreasing order of value gives us the n most persistent connected components.
+  + For cycles we **add** edges which give birth to the most persistent cycles through the filtration. Then we find loops with a **traversal algorithm**
++ The most persistent connected components and the most persistent cycles give each a segmentation of our images.
