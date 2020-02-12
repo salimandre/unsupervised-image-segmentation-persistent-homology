@@ -17,7 +17,7 @@ Credits @ Frédéric Chazal, Bertrand Michel
 
 We used TDA framework to perform unsupervised image segmentation. The set of images provided by the skimage library from python and the python library Gudhi @INRIA to produce simplicial complexes and persistence diagrams. 
 
-The main procedure was as followed : 
+The main **procedure** was as followed : 
 
 + Take a random sample of points from the image called **superpixels** 
 + Compute the **Nested Rips-Vietoris complexes** from those points 
