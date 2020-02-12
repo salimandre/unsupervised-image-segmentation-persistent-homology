@@ -64,4 +64,4 @@ Here are our final results for 0th homology groups where we applied full procedu
 
 Here are our final results for 1th homology groups where we applied full procedure:
 
-<img src="img/final_pd_0.png" width="50%">
+<img src="img/final_pd_1.png" width="50%">
