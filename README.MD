@@ -2,7 +2,7 @@
 
 ## Topological Data Analysis 
 
-In the early of 20s century Algebraic topology provided, thanks to Poincaré, a general framework to classify shapes. Indeed the **Euler characteristic** equal to the alternating sum of the Betti numbers is a **topological invariant**. Roughly these numbers count the number of distinct objects in the domain, the number of holes and the number of voids they contain etc...
+In the early of 20th century Algebraic topology provided, thanks to Poincaré, a general framework to classify shapes. Indeed the **Euler characteristic** equal to the alternating sum of the Betti numbers is a **topological invariant**. Roughly these numbers count the number of distinct objects in the domain, the number of holes and the number of voids they contain etc...
 
 <p align="center">
   <img src="img/homology_classification.jpg" width="35%">
