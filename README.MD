@@ -19,7 +19,7 @@ We used TDA framework to perform unsupervised image segmentation. The set of ima
 
 The main **procedure** was as followed : 
 
-+ Apply a small gaussian blur to the image to remove isolated pixels (outliers)
++ Apply a small **gaussian blur** to the image to remove isolated pixels (outliers)
 + Take a random sample of points from the image called **superpixels**. We obtain a 3D cloud point if image is gray a 5D cloud point if the image is in color. 
 + Compute the **Nested Rips-Vietoris complexes** from those points 
   + Computed nested RV complexes for radius ε from 0 to infinity 
