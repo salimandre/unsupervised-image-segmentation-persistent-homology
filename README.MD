@@ -62,6 +62,6 @@ Here are our final results for 0th homology groups where we applied full procedu
 
 <img src="img/final_pd_0.png" width="50%">
 
-Here are our final results for 1th homology groups where we applied full procedure. Actually we noticed that most often only the most persistent cycle is relevant to the image. Although the issue is that a relevant cycle in 
+Here are our final results for 1th homology groups where we applied full procedure. Actually we noticed that most often only the most persistent cycle may be relevant to the image. Although the main issue with 1th homology groups is that a relevant cycle in 3D or 5D RV complex may become irrelevant when projected into 2D.
 
 <img src="img/final_pd_1.png" width="50%">
