@@ -1,1 +1,1 @@
-# unsupervised-image-segmentation-persistent-homology
+# Unsupervised image segmentation using persistent homology theory
