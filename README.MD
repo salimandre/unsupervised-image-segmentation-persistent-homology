@@ -10,4 +10,5 @@ In the early of 20s century Algreabic topology provided, thanks to Poincaré, a 
 
 <p align="center"> 
 <img src="img/filtration_barcodes_chazal_funda.jpg" width="30%">
+  
 Credits @ Frédéric Chazal, Bertrand Michel</p>
