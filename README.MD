@@ -1,5 +1,7 @@
 # Unsupervised image segmentation using persistent homology theory
 
+## Topological Data Analysis 
+
 In the early of 20s century Algebraic topology provided, thanks to Poincaré, a general framework to classify shapes. Indeed the **Euler characteristic** equal to the alternating sum of the Betti numbers is a **topological invariant**. Roughly these numbers count the number of distinct objects in the domain, the number of holes and the number of voids they contain etc...
 
 <p align="center">
@@ -16,6 +18,8 @@ Credits @ Frédéric Chazal, Bertrand Michel
 </p>
 
 We used TDA framework to perform unsupervised image segmentation. The set of images provided by the skimage library from python and the python library Gudhi @INRIA to produce simplicial complexes and persistence diagrams. 
+
+## Our Method 
 
 The main **procedure** was as followed : 
 
@@ -37,5 +41,7 @@ The main **procedure** was as followed :
 *Please note that in practice to compute most persistent 0 homology groups we followed two more steps we don't develop:*
 + to compute most relevant connected components we actually use a **tree** where each split represents a persistence pair and we use **gini criterion** to select most relevant ones 
 + we use a **sampling method** based on empirical distribution of superpixel labels to infer labels on every pixels from image 
+
+## Our Results
 
 **Note:** since computation was heavy for our computer we had to use only 5000 to 10000 superpixels that is 2% to 4% of all pixels. It is interesting to see that we still managed to get decent results while TDA researchers actually use all pixels into their computation.
