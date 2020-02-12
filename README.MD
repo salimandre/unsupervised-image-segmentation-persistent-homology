@@ -46,15 +46,22 @@ The main **procedure** was as followed :
 
 **Note:** since computation was heavy for our computer we had to use only 5000 to 10000 superpixels that is 2% to 4% of all pixels. It is interesting to see that we still managed to get decent results while TDA researchers actually use all pixels into their computation.
 
+Here is one example of image segmentation produced using the naive procedure. It produced 250 most persistent 0th homology groups but they are irrelevant. These are isolated pixels.
 
 <p align="center"> 
 <img src="img/pd_0_naive.png" width="70%">
 </p>
 
+Here we removed isolated pixels. We then applied our sampling method to recover labels for these as well.
+
 <p align="center"> 
 <img src="img/pd_0_clean.png" width="70%">
 </p>
 
-<img src="img/filtration_barcodes_chazal_funda.jpg" width="50%">
+Here are our final results for 0th homology groups where we applied full procedure:
 
-<img src="img/filtration_barcodes_chazal_funda.jpg" width="50%">
+<img src="img/final_pd_0.png" width="50%">
+
+Here are our final results for 1th homology groups where we applied full procedure:
+
+<img src="img/final_pd_0.png" width="50%">
