@@ -34,4 +34,7 @@ The main **procedure** was as followed :
   + For cycles we **add** edges which give birth to the most persistent cycles through the filtration. Then we find loops with a **traversal algorithm**
 + The most persistent connected components and the most persistent cycles give each a segmentation of our images.
 
-*Acknowledgement*
+*Note for most persistent 0 homology groups:
++ to compute most relevant connected components we actually use a tree where each split represents a persistence pair and we use gini criterion to select most relevant ones 
++ we use a sampling method based on empirical distribution of superpixel labels to infer labels on every pixels from image 
+*
