@@ -14,3 +14,15 @@ In the early of 20s century Algebraic topology provided, thanks to Poincaré, a 
 <p align="center"> 
 Credits @ Frédéric Chazal, Bertrand Michel
 </p>
+
+We used TDA framework to perform unsupervised image segmentation. the set of images provided by the skimage library from python and the python library Gudhi @INRIA to produce simplicial complexes and persistence diagrams. The main procedure was as followed :
+
+> Take a random sample of points from the image called **superpixels**
+> Compute the **Nested Rips-Vietoris complexes** from those points
+  > Computed nested RV complex for radius ε from 0 to infinity
+  > Set a value for edges : the distance between the two vertices. Value of vertices is set to 0. (Method called age filter)
+> Compute the persistent pairs for homology groups for dimensions 0 and 1 and for 1 and 2. For dimensions 0 and 1 these are pairs (c,e) where c is a non zero element of a group H0(Kε) for some ε and e isanedgesuchthattheaddofetoKε′ forε′ ≥εmakescvanish,i.e.cisazeroforH0(Kε′).
+— With the set of all edges for persistent pairs of dimensions 0-1 we can compute the covering tree over our cloud data point with minimum value.
+— Then we can remove the nc −1 edges which vanish the nc −1 most persistent component connexes of our filtration. This gives us the nc most persistent connexe components.
+— Or we can add edges which gave birth to the most persistent cycles through the filtration. Then find loops with a traversal algorithm.
+— The most persistent connexe components and the most persistent cycles give each a segmentation of our images.
