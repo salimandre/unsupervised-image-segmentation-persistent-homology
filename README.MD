@@ -19,7 +19,7 @@ We used TDA framework to perform unsupervised image segmentation. The set of ima
 
 The main procedure was as followed : 
 
-> Take a random sample of points from the image called **superpixels** 
++ Take a random sample of points from the image called **superpixels** 
 > Compute the **Nested Rips-Vietoris complexes** from those points 
   > Computed nested RV complex for radius ε from 0 to infinity 
   > Set a value for edges : the distance between the two vertices. Value of vertices is set to 0. (Method called age filter) 
