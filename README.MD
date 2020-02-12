@@ -33,3 +33,5 @@ The main **procedure** was as followed :
   + For connected components we compute the **graph** from the set of all edges of persistent pairs of dimensions 0-1. In fact it is equivalent as computing the **covering tree** of the 1-skeleton of our RV-complex, that is to say the covering tree over our cloud data point with minimum value.Then **removing** n − 1 edges from this tree in decreasing order of value gives us the n most persistent connected components.
   + For cycles we **add** edges which give birth to the most persistent cycles through the filtration. Then we find loops with a **traversal algorithm**
 + The most persistent connected components and the most persistent cycles give each a segmentation of our images.
+
+*Acknowledgement*
