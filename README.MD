@@ -66,4 +66,4 @@ Here are our final results for 1th homology groups where we applied full procedu
 
 <img src="img/final_pd_1.png" width="50%">
 
-In conclusion we found that topological persistence of 0 dimension elements is an effective and robust (no need of parameter tuning) method for image segmentation but more generally for unsupervised data processing. Also it is interesting to see that this method is close to Felzenswalb's algorithm. It provides a theorical framework which explains why this algorithm is so powerful. In the contrary we found that topological persistence of 1 dimension elements is not useful in the case of images due to projection issue.
+**To conclude** we found that topological persistence of 0 dimension elements is an effective and robust (no need of parameter tuning) method for image segmentation but more generally for unsupervised data processing. Also it is interesting to see that this method is close to Felzenswalb's algorithm. It provides a theorical framework which explains why this algorithm is so powerful. In the contrary we found that topological persistence of 1 dimension elements is not useful in the case of images due to projection issue.
